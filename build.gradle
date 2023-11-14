@@ -1,0 +1,11 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.30'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "junit:junit:4.13.2"
+}
